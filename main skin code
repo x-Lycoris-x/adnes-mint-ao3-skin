@@ -1,0 +1,117 @@
+#header .logo,
+#header .heading sup {
+  display: none;
+}
+
+#header h1.heading span {
+  display: none;
+}
+
+#header h1.heading a::before {
+  display: inline-block;
+  width: 284px;
+  height: 80px;
+  content: " ";
+  background-image: url("https://64.media.tumblr.com/a7fba066b336122e75c9428188f759c7/57f7c29141a29324-17/s640x960/6ac2a93d6a582c6f947ba8f28b00345caba9d703.png");
+  background-size: 284px 80px;
+}
+
+#greeting img.icon {
+  display: none;
+}
+
+.comment div.icon {
+  background: #3E1929;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.icon {
+  border-radius: 5em;
+}
+
+.splash .news blockquote p:first-child {
+  padding-left: 105px;
+  background: url("https://64.media.tumblr.com/7495768c034c4d677d0240769e1b92ac/ad2373978cc6ca4e-61/s400x600/17fa2b5ada700c4961abf7f8802f27c8efa3fabf.png");
+  background-size: 100px 80px;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.social.module p {
+  padding-left: 83px;
+  background: url("https://64.media.tumblr.com/3a5a156cf969586e3b5bb4caca1411f5/1cd213b29eeb43b4-11/s500x750/ea782bdfce9d87f884067da8994a24ba555590f6.png");
+  background-size: 80px 78px;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.comment h4.byline {
+  background: #3E1929;
+}
+
+.comment .userstuff {
+  padding-right: 67px;
+  padding-bottom: 50px;
+  background: url("https://64.media.tumblr.com/d20bf7647237bb818793d7a90e058caa/1cd213b29eeb43b4-f1/s100x200/8d178a1264f6ba92ded8cce766725c4f032412a5.png");
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: 64px 90px;
+}
+
+li.comment {
+  background: transparent;
+  border: 15px solid transparent;
+  border-image: url("https://64.media.tumblr.com/f41ef07fc7997cd770446b21475546f3/7fa12c05ca858dab-b1/s1280x1920/1fc5b46481a0ebb63b5c97bb0faf91f654fd6de4.png") 30 round;
+}
+
+.thread .even {
+  background: #e8e1cc;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash,
+.LV_invalid {
+  background: #3E1929;
+  box-shadow: none;
+  border: 6px solid transparent;
+  border-image: url("https://solaria.neocities.org/guides/borderimage/whitelace.png") 34 round;
+  background-clip: padding-box;
+  color: #DDF8E8;
+}
+
+.actions a:active,
+.current,
+a.current,
+a:link.current,
+#dashboard .current,
+.current a:visited {
+  background: #3E1929;
+  box-shadow: none;
+  border: 6px solid transparent;
+  border-image: url("https://solaria.neocities.org/guides/borderimage/whitelace.png") 34 round;
+  background-clip: padding-box;
+  color: #DDF8E8;
+}
+
+p.kudos::before {
+  display: none;
+}
+
+p.kudos {
+  padding-left: 8.3em;
+  background: url("https://64.media.tumblr.com/17a7cc9d7ac84b8b66f2c6fa4c2c6ddc/8afc962692af60fb-c5/s500x750/f3de494db5140a6b0ed57d211d488a6a7552baef.png");
+  background-size: 100px 112px;
+  background-repeat: no-repeat;
+  min-height: 112px;
+}

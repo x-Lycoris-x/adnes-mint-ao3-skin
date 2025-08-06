@@ -11,9 +11,12 @@
   display: inline-block;
   width: 284px;
   height: 80px;
+  background-size: contain;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
   content: " ";
   background-image: url("https://64.media.tumblr.com/a7fba066b336122e75c9428188f759c7/57f7c29141a29324-17/s640x960/6ac2a93d6a582c6f947ba8f28b00345caba9d703.png");
-  background-size: 284px 80px;
 }
 
 #greeting img.icon {
@@ -41,7 +44,7 @@
 
 .social.module p {
   padding-left: 83px;
-  background: url("https://64.media.tumblr.com/3a5a156cf969586e3b5bb4caca1411f5/1cd213b29eeb43b4-11/s500x750/ea782bdfce9d87f884067da8994a24ba555590f6.png");
+  background: url("https://64.media.tumblr.com/79f71e8efbd1fe197e2320ccc266a568/tumblr_pq41403AxG1vqnd6d_1280.png");
   background-size: 80px 78px;
   background-position-x: left;
   background-position-y: top;
@@ -68,10 +71,6 @@ li.comment {
   border-image: url("https://64.media.tumblr.com/f41ef07fc7997cd770446b21475546f3/7fa12c05ca858dab-b1/s1280x1920/1fc5b46481a0ebb63b5c97bb0faf91f654fd6de4.png") 30 round;
 }
 
-.thread .even {
-  background: #e8e1cc;
-}
-
 .notice,
 .comment_notice,
 .kudos_notice,
@@ -84,7 +83,7 @@ ul.notes,
 .LV_invalid {
   background: #3E1929;
   box-shadow: none;
-  border: 6px solid transparent;
+  border: 10px solid transparent;
   border-image: url("https://solaria.neocities.org/guides/borderimage/whitelace.png") 34 round;
   background-clip: padding-box;
   color: #DDF8E8;
@@ -114,4 +113,119 @@ p.kudos {
   background-size: 100px 112px;
   background-repeat: no-repeat;
   min-height: 112px;
+}
+
+#footer.region {
+  border-top: 5px solid #d6caa5;
+  background: url("https://64.media.tumblr.com/13bfc8695df2859fc067b3d17fbbbd88/b15d23a765658ea4-aa/s1280x1920/6d9137d493c5f1c55afba7f3061ff4d2bb45d8c5.png");
+  background-size: contain;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: #3E1929;
+}
+
+fieldset,
+fieldset fieldset {
+  background: transparent;
+  box-shadow: none;
+}
+
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  background: #3E1929;
+  box-shadow: none;
+  border: 20px solid transparent;
+  border-image: url("https://solaria.neocities.org/guides/borderimage/whitelace.png") 34 round;
+  background-clip: padding-box;
+  color: #DDF8E8;
+}
+
+.admin .primary .icon {
+  display: none;
+}
+
+fieldset.warnings {
+  margin: 0;
+  padding: 0;
+}
+
+.home .header h2 {
+  text-align: left;
+}
+
+.news.admin.home {
+  background: url("https://64.media.tumblr.com/705d8ebbd9f8c3ce71eaac4286abd4ac/a465f9baf1eac838-4b/s500x750/3298ad1dcc1425519c43fe79ae9132bc87b104dd.png");
+  background-position-x: right;
+  background-position-y: 400px;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+.module.news.group .userstuff {
+  width: 80%;
+  text-align: left;
+}
+
+#main.system.docs.about.region {
+  margin-top: 2em;
+  background: url("https://64.media.tumblr.com/7971c0560aa8d5da25924be32dab7eee/28df75b586705f4b-23/s1280x1920/128ab3ced9e8cc437bbaee73f1013a279866dcd8.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+#main.system.docs.about.region {
+  padding-bottom: 20%;
+  margin-bottom: 2em;
+}
+
+.comment .icon .visitor {
+  background: url("https://64.media.tumblr.com/cd840fbd4758683dbab1977b094f524d/28df75b586705f4b-5b/s400x600/4ca097cd29cdd643decfb25b921722945d0e98fb.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.media-index .listbox {
+  background: url("https://64.media.tumblr.com/f58fa875ee756e60a1497a5d48e128c0/7fa12c05ca858dab-3e/s1280x1920/15091479880caf89a992d894d98125571482120a.png");
+  background-size: 30%;
+  border: 2px solid #ab3740;
+  box-shadow: none;
+}
+
+.media-index .listbox h3.heading a {
+  color: #3E1929;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px #000;
+}
+
+.profile-show.dashboard.region dl.meta {
+  border: none;
+  box-shadow: none;
+  background: url("https://64.media.tumblr.com/f86815894a9b322f18d7754fa98b18df/7fa12c05ca858dab-b1/s1280x1920/83e752cf5bc9512c39a0877605cd41cff9caceda.png");
+  background-position-x: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  box-shadow: none;
+}
+
+.works-show.region div.wrapper {
+  border: none;
+  box-shadow: none;
+  background: url("https://64.media.tumblr.com/6fdc92a6e98b450d03f65bb1538acb0e/7fa12c05ca858dab-83/s500x750/86dae0593b29adb575c45a9a2cbfb7c763a6d8bb.png");
+  background-position-x: right;
+  background-position-y: top;
+  background-size: 30%;
+  background-repeat: no-repeat;
 }
